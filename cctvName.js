@@ -87,22 +87,51 @@ module.exports = (app) => {
                 padding: 20px;
                 background: transparent;
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                justify-content: flex-start;
+                align-items: flex-start;
                 min-height: 100vh;
               }
               .container {
-                background: white;
+                /* === CUSTOM LEBAR CARD DI SINI === */
+                width: 600px;
+                /* ================================= */
+                
+                position: relative;
+                background: #d81e0e;
                 padding: 20px 40px;
                 border-radius: 10px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+              }
+              /* 3 Garis putih diagonal sejajar di pojok kanan atas */
+              .container::before {
+                content: '';
+                position: absolute;
+                top: -8px;
+                right: 32px;
+                width: 2.5px;
+                height: 70px;
+                background: white;
+                transform: rotate(45deg);
+                box-shadow: 
+                  -7px 7px 0 0 white,
+                  -14px 14px 0 0 white;
               }
               .text {
-                font-size: 40px;
-                color: black;
+                font-size: 30px;
+                color: white;
                 font-family: Arial, sans-serif;
-                font-weight: bold;
+                font-weight: 900;
                 white-space: nowrap;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                
+                /* Batasi teks agar tidak keluar dari card */
+                max-width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
               }
             </style>
           </head>
