@@ -9,14 +9,14 @@ const VLC_AUTH = {
 module.exports = (app) => {
 
   app.get("/", (req, res) => {
-    res.redirect("/running-text");
+    res.redirect("/musicName");
   });
 
   app.get("/test", (req, res) => {
     res.send("Server OK - akses /running-text untuk running text");
   });
 
-  app.get("/api/running-text", async (req, res) => {
+  app.get("/api/musicName", async (req, res) => {
     try {
       const response = await axios.get(
         "http://localhost:8081/requests/status.json",
@@ -49,7 +49,7 @@ module.exports = (app) => {
   app.get("/musicName", async (req, res) => {
     try {
       const response = await axios.get(
-        "http://localhost:8080/requests/status.json",
+        "http://localhost:8081/requests/status.json",
         { auth: VLC_AUTH }
       );
 
@@ -97,7 +97,7 @@ module.exports = (app) => {
             <script>
               setInterval(async () => {
                 try {
-                  const response = await fetch('/api/running-text');
+                  const response = await fetch('/api/musicName');
                   const text = await response.text();
                   if (text) {
                     document.querySelector('.marquee').textContent = text;

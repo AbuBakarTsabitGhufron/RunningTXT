@@ -87,7 +87,6 @@ module.exports = (app) => {
                 padding: 20px;
                 background: transparent;
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 min-height: 100vh;
               }
@@ -103,6 +102,7 @@ module.exports = (app) => {
                 font-family: Arial, sans-serif;
                 font-weight: bold;
                 white-space: nowrap;
+                text-align: left;
               }
             </style>
           </head>
