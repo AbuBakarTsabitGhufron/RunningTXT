@@ -41,6 +41,10 @@ module.exports = (app) => {
       let runningText = filename
         .replace(".stream", "")
         .replace(".mp3", "")
+        .replace(".mp4", "")
+        .replace("mp4:", "")
+        .replace("mp4:Transisi", "")
+        .replace("_", " ")
         .replace(/([A-Z])/g, " $1")
         .trim();
 
