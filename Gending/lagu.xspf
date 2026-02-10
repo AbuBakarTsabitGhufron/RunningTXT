@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Gending Pengiring Playlist</title>
+    <trackList>
+        <track>
+            <location>./Gending Pengiring - AJI SAKA.mp3</location>
+            <title>Gending Pengiring - AJI SAKA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BABAR LAYAR.mp3</location>
+            <title>Gending Pengiring - BABAR LAYAR</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BABAT.mp3</location>
+            <title>Gending Pengiring - BABAT</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BANGUN SORE.mp3</location>
+            <title>Gending Pengiring - BANGUN SORE</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BEDHAT.mp3</location>
+            <title>Gending Pengiring - BEDHAT</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BINDRI.mp3</location>
+            <title>Gending Pengiring - BINDRI</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BOYONG.mp3</location>
+            <title>Gending Pengiring - BOYONG</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - BRONTO ASMORO.mp3</location>
+            <title>Gending Pengiring - BRONTO ASMORO</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - DANDHANGGULA.mp3</location>
+            <title>Gending Pengiring - DANDHANGGULA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - GADJAH HENDRA.mp3</location>
+            <title>Gending Pengiring - GADJAH HENDRA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - GENGGONG.mp3</location>
+            <title>Gending Pengiring - GENGGONG</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - GIRANG-GIRANG.mp3</location>
+            <title>Gending Pengiring - GIRANG-GIRANG</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - KAGOK LIWUNG.mp3</location>
+            <title>Gending Pengiring - KAGOK LIWUNG</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - LAMBANGSARI.mp3</location>
+            <title>Gending Pengiring - LAMBANGSARI</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - LARASATI.mp3</location>
+            <title>Gending Pengiring - LARASATI</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - MARA SEBA.mp3</location>
+            <title>Gending Pengiring - MARA SEBA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - NAWA.mp3</location>
+            <title>Gending Pengiring - NAWA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - PANJI PENGASIH.mp3</location>
+            <title>Gending Pengiring - PANJI PENGASIH</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - PRABU MATARAM.mp3</location>
+            <title>Gending Pengiring - PRABU MATARAM</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - SEMAR MANTU.mp3</location>
+            <title>Gending Pengiring - SEMAR MANTU</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - SRI KONDUR.mp3</location>
+            <title>Gending Pengiring - SRI KONDUR</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - TEDHAK SAKING.mp3</location>
+            <title>Gending Pengiring - TEDHAK SAKING</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - UDAN MAS.mp3</location>
+            <title>Gending Pengiring - UDAN MAS</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - ULUK-ULUK.mp3</location>
+            <title>Gending Pengiring - ULUK-ULUK</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - WASANA.mp3</location>
+            <title>Gending Pengiring - WASANA</title>
+        </track>
+        <track>
+            <location>./Gending Pengiring - WULAN KARAHINAN.mp3</location>
+            <title>Gending Pengiring - WULAN KARAHINAN</title>
+        </track>
+    </trackList>
+</playlist>
